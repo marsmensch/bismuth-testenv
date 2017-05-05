@@ -24,7 +24,16 @@ apt-get update && apt-get -y install wine-stable winetricks
 #
 cat > /usr/local/bin/bismuth <<'EOF'
 #!/bin/bash
+
+# xp compatibility
 winetricks settings winxp
+
+# Microsoft Visual C++ 2010 SP1 Redistributable Package (x86)
+bash winetricks -q vcrun2010
+
+if [ ! -f "bismuthtoolsinstall.exe" ]; then wget https://github.com/maccaspacca/BismuthTools/releases/download/1.0.1/bismuthtoolsinstall.exe; fi
+wine bismuthtoolsinstall.exe
+
 if [ ! -f "Bismuth_installer.exe" ]; then wget https://github.com/hclivess/Bismuth/releases/download/3.23/Bismuth_installer.exe; fi
 wine Bismuth_installer.exe
 EOF

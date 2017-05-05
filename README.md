@@ -1,7 +1,8 @@
 # bismuth test environment
+https://i.imgur.com/a02997Q.png
 
 ## Tools used
-My preferred setup to test and develop altcoins is (as almost always) designed around Vagrant. Vagrant is an open source tool from the DevOps world that is often used to provision development environments automatically. 
+This setup is designed around Vagrant. Vagrant is an open source tool from the DevOps world that is often used to provision development environments automatically. 
 
 You need the following set of tools to start:  
 
