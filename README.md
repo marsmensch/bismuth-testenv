@@ -1,5 +1,6 @@
 # bismuth test environment
-https://i.imgur.com/a02997Q.png
+
+![Bismuth logo](/img/bismuth.png)
 
 ## Tools used
 This setup is designed around Vagrant. Vagrant is an open source tool from the DevOps world that is often used to provision development environments automatically. 
