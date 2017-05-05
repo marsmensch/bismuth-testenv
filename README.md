@@ -5,6 +5,8 @@
 ## Tools used
 This setup is designed around Vagrant. Vagrant is an open source tool from the DevOps world that is often used to provision development environments automatically. 
 
+![The final result](/img/vm_window.png)
+
 You need the following set of tools to start:  
 
 * VirtualBox (newest version from the [VirtualBox-Homepage])
